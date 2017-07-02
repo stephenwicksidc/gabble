@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "stephenwicks",
+    "password": null,
+    "database": "gabble",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "test": {
+    "username": "stephenwicks",
+    "password": null,
+    "database": "gabble",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  },
+  "production": {
+    "username": "stephenwicks",
+    "password": null,
+    "database": "gabble",
+    "host": "127.0.0.1",
+    "dialect": "postgresql"
+  }
+}
