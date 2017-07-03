@@ -15,7 +15,7 @@ const path = require('path');
 app.engine('mustache', mustacheExpress());
 app.set('views', path.join(__dirname, 'views'));
 app.set('view engine', 'mustache');
-//app.set('layout', 'layout');
+app.set('layout', 'layout');
 app.use('/static', express.static('static'));
 /*STEPHEN'S NOTES: The code below determines if an object will contain key-value pairs, where the value can be a string or array (when extended is false), or any type (when extended is true).*/
 app.use(bodyParser.urlencoded({extended:false}));
