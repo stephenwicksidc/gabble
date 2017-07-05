@@ -12,7 +12,7 @@ module.exports = {
         type: Sequelize.STRING
       },
       post: {
-        type: Sequelize.VARCHAR(140)
+        type: Sequelize.STRING(140)
       },
       createdAt: {
         allowNull: false,
